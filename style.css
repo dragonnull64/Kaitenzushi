@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+  
+}
+
+img {
+  animation: rotate-anime 3s linear infinite;
+  width: 750px;
+  height: 750px;
+}
+
+@keyframes rotate-anime {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
