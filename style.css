@@ -7,8 +7,8 @@ body {
 
 img {
   animation: rotate-anime 3s linear infinite;
-  width: 750px;
-  height: 750px;
+  width: 35%;
+  height: 35%;
 }
 
 @keyframes rotate-anime {
